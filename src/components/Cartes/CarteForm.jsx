@@ -7,9 +7,8 @@ import { CardActionArea } from "@mui/material";
 import "./Card.css";
 import { makeStyles } from "@mui/styles";
 import { Row, Col } from "antd";
-import img from "../images/ronnie.jpg";
-import Video from "../images/video.mp4";
-import { Backclip, Conteneur, SubConteneur, Contenuu } from "./bgvideo";
+import img from "../../images/ronnie.jpg";
+import Video from "../../images/video.mp4";
 const useStyles = makeStyles({
   b1: {
     marging: 1000,
@@ -23,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ActionAreaCard() {
+export default function Collection() {
   const classes = useStyles();
   const a = [1, 1, 1, 1, 1, 1];
   return (
