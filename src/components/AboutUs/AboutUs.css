@@ -1,11 +1,8 @@
 .app__aboutus {
   position: relative;
-  background: url("../../images/3354211-68564488-2560-1440.webp");
   height: 100vh;
   width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
+  
 }
 
 .app__aboutus-overlay {
