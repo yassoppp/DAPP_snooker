@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  border-bottom: 20px solid black;
   min-height: 100vh;
 }
 
@@ -175,7 +175,6 @@
 }
 .crypto-card {
   min-width: 250px;
-  border: solid 2px black;
   margin: 20px 20px;
 }
 .exchange-image {
@@ -186,7 +185,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: green;
   padding: 10px 20px;
 }
 .app {

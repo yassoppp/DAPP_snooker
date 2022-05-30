@@ -13,13 +13,15 @@ export default function Navbar() {
         </div>
         <ul className="links">
           <li className="p__opensans">
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className="p__opensans">
-            <a href="#about">About us</a>
+            <a href="#collection">Collection</a>
           </li>
-          <li className="p__opensans">Book a Table</li>
-          <li className="p__opensans">Best players</li>
+          <li className="p__opensans">
+            <a href="#about">About Us</a>
+          </li>
+          <li className="p__opensans">Best Players</li>
         </ul>
         <div className="app__navbar-smallscreen">
           <GiHamburgerMenu
@@ -35,20 +37,23 @@ export default function Navbar() {
               />
               <ul className="app__navbar-smallscreen_links">
                 <li>
-                  <a onClick={() => setToggleMenu(false)}>Home</a>
+                  <a onClick={() => setToggleMenu(false)} href="#home">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a onClick={() => setToggleMenu(false)}>About</a>
+                  <a onClick={() => setToggleMenu(false)} href="#collection">
+                    Collection
+                  </a>
                 </li>
                 <li>
-                  <a onClick={() => setToggleMenu(false)}>Menu</a>
-                </li>
-                <li>
-                  <a onClick={() => setToggleMenu(false)}>Awards</a>
+                  <a onClick={() => setToggleMenu(false)} href="#about">
+                    About Us
+                  </a>
                 </li>
                 <li>
                   <a c onClick={() => setToggleMenu(false)}>
-                    Contact
+                    Best Players
                   </a>
                 </li>
               </ul>

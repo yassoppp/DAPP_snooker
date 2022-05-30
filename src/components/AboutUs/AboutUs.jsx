@@ -8,7 +8,6 @@ const AboutUs = () => (
     id="about"
   >
     <div className="app__aboutus-overlay flex__center">
-      <img src={lg} alt="G_overlay" />
     </div>
 
     <div className="app__aboutus-content flex__center">
@@ -30,8 +29,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <p className="p__opensans">
           Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-          odio nec aliquet.
+          Ri
         </p>
         <button type="button" className="custom__button">
           Know More
